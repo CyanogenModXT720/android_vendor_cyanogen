@@ -28,10 +28,10 @@ PRODUCT_MANUFACTURER := Motorola
 #
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-MilestoneXT720
+        ro.modversion=CyanogenMod-7-$(shell date +%d%n%Y)-NIGHTLY-MilestoneXT720
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7.1.0-MilestoneXT720-alpha-$(shell date +%m%d%Y) 
+        ro.modversion=CyanogenMod-7.1.0-MilestoneXT720-beta-$(shell date +%d%m%Y) 
 endif
 
 PRODUCT_BUILD_PROP_OVERRIDES := BUILD_ID=R.U.R.1920 BUILD_DISPLAY_ID=R.U.R.1920 PRODUCT_NAME=sholest TARGET_DEVICE=sholest PRODUCT_BRAND=motorola   USER=fjfalcon
