@@ -17,7 +17,6 @@ add_lunch_combo cyanogen_es209ra-eng
 add_lunch_combo cyanogen_espresso-eng
 add_lunch_combo cyanogen_fascinatemtd-eng
 add_lunch_combo cyanogen_galaxys2-eng
-add_lunch_combo cyanogen_galaxys2att-eng
 add_lunch_combo cyanogen_galaxysmtd-eng
 add_lunch_combo cyanogen_generic-eng
 add_lunch_combo cyanogen_glacier-eng
@@ -36,7 +35,6 @@ add_lunch_combo cyanogen_mimmi-eng
 add_lunch_combo cyanogen_morrison-eng
 add_lunch_combo cyanogen_motus-eng
 add_lunch_combo cyanogen_one-eng
-add_lunch_combo cyanogen_olympus-eng
 add_lunch_combo cyanogen_p990-eng
 add_lunch_combo cyanogen_p999-eng
 add_lunch_combo cyanogen_passion-eng
@@ -66,4 +64,4 @@ add_lunch_combo cyanogen_zeppelin-eng
 add_lunch_combo cyanogen_zero-eng
 add_lunch_combo cyanogen_zeus-eng
 add_lunch_combo cyanogen_zeusc-eng
-
+add_lunch_combo cyanogen_sholest-eng
