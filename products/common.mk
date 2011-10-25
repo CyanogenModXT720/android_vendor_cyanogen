@@ -67,13 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
     vendor/cyanogen/prebuilt/common/etc/profile:system/etc/profile \
     vendor/cyanogen/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
-    vendor/cyanogen/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
-    vendor/cyanogen/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
-    vendor/cyanogen/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
-    vendor/cyanogen/prebuilt/common/etc/init.d/04modules:system/etc/init.d/04modules \
-    vendor/cyanogen/prebuilt/common/etc/init.d/05mountsd:system/etc/init.d/05mountsd \
-    vendor/cyanogen/prebuilt/common/etc/init.d/06mountdl:system/etc/init.d/06mountdl \
-    vendor/cyanogen/prebuilt/common/etc/init.d/20userinit:system/etc/init.d/20userinit \
     vendor/cyanogen/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
     vendor/cyanogen/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/cyanogen/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions \
@@ -94,7 +87,7 @@ PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 # Always run in insecure mode, enables root on user build variants
-#ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
+ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
 
 ifdef CYANOGEN_WITH_GOOGLE
 

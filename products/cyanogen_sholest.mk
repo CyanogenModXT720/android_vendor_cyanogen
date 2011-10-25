@@ -12,7 +12,7 @@ PRODUCT_PACKAGES += \
     Stk
 
 # Include the Flashlight/Torch
-PRODUCT_PACKAGES += Torch
+#PRODUCT_PACKAGES += Torch
 
 #
 # Setup device specific product configuration.
