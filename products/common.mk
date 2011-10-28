@@ -81,6 +81,7 @@ PRODUCT_COPY_FILES += \
 
 #PRODUCT_COPY_FILES +=  \
 #    vendor/cyanogen/proprietary/RomManager.apk:system/app/RomManager.apk \
+#we dont need it
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
