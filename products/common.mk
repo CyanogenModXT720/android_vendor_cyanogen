@@ -45,7 +45,6 @@ PRODUCT_PACKAGES += \
     CMUpdateNotify \
     CMWallpapers \
     CMScreenshot \
-    Pacman \
     screenshot \
     DSPManager \
     FileManager \
