@@ -18,7 +18,7 @@ PRODUCT_MANUFACTURER := Motorola
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := MilestoneXT720
-PRODUCT_VERSION_DEVICE_SPECIFIC := .1
+PRODUCT_VERSION_DEVICE_SPECIFIC := .2
 -include vendor/cyanogen/products/common_versions.mk
 
 PRODUCT_BUILD_PROP_OVERRIDES := \
