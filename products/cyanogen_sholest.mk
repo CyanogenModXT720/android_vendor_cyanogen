@@ -36,4 +36,5 @@ PRODUCT_PACKAGES += \
     Torch
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-
+ro.build.description=str-user 2.3.7 STR_U2_03.20.1 1281000449 release-keys
+ro.build.fingerprint=Motorola/STR_RTRU/sholest/sholes:2.3.7/STR_U2_03.20.1/1281000449:user/release-keys
