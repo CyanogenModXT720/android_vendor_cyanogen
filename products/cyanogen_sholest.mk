@@ -10,7 +10,10 @@ $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 #
 # Setup device specific product configuration.
 #
+PRODUCT_NAME := cyanogen_sholest
+PRODUCT_BRAND := MOTO
 PRODUCT_MODEL := XT720
+PRODUCT_DEVICE := sholest
 PRODUCT_MANUFACTURER := Motorola
 
 # Release name and versioning
