@@ -11,9 +11,7 @@ $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 # Setup device specific product configuration.
 #
 PRODUCT_NAME := cyanogen_sholest
-PRODUCT_BRAND := motorola
-PRODUCT_DEVICE := sholest
-PRODUCT_MODEL := Milestone XT720
+PRODUCT_MODEL := XT720
 PRODUCT_MANUFACTURER := Motorola
 
 # Release name and versioning
@@ -22,11 +20,9 @@ PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
 
 PRODUCT_BUILD_PROP_OVERRIDES := \
-BUILD_ID=R.U.R.1920 \
-BUILD_DISPLAY_ID=R.U.R.1920 \
-PRODUCT_NAME=sholest \
+PRODUCT_NAME=cyanogen_sholest \
 TARGET_DEVICE=sholest \
-PRODUCT_BRAND=motorola \
+PRODUCT_BRAND=MOTO \
 USER=CyanogenModXT720
 
 PRODUCT_COPY_FILES += \
@@ -38,3 +34,6 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Add the Torch app
 PRODUCT_PACKAGES += \
     Torch
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+
