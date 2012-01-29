@@ -20,7 +20,7 @@ PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
 
 PRODUCT_BUILD_PROP_OVERRIDES := \
-PRODUCT_NAME=cyanogen_sholest \
+PRODUCT_NAME=sholest \
 TARGET_DEVICE=sholest \
 PRODUCT_BRAND=MOTO \
 USER=CyanogenModXT720
