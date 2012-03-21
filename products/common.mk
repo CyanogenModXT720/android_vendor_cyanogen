@@ -3,7 +3,7 @@ PRODUCT_NAME := cyanogen
 PRODUCT_BRAND := cyanogen
 PRODUCT_DEVICE := generic
 
-PRODUCT_PACKAGES += ADWLauncher
+#PRODUCT_PACKAGES += ADWLauncher
 
 # Add ROMManager build property
 PRODUCT_PROPERTY_OVERRIDES += \
